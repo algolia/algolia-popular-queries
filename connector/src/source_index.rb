@@ -123,8 +123,7 @@ class SourceIndex
       SEARCH_PARAMETERS.merge(
         queryType: 'prefixNone',
         typoTolerance: false,
-        removeWordsIfNoResults: 'none',
-        ignorePlurals: false,
+        removeWordsIfNoResults: 'none',        
         facets: facets,
         maxValuesPerFacet: max_facet_values
       )
